@@ -1,0 +1,15 @@
+Testēšana
+1. Veiksmes scenāriji:
+1.	Pareiza datu ievade:
+o	Lietotājs ievada produktu un tā masu, piemēram, "siers 50", un saņem pareizās atbildes ar informāciju par kalorijām, olbaltumvielām, taukiem un ogļhidrātiem.
+2.	Komanda /help:
+o	Lietotājs ievada /help, un bots sniedz pilnu informāciju par pieejamām komandām un to lietojumu.
+2. Lietošanas scenāriji:
+1.	Lietotājs pieprasa "piens 200" un saņem atbilstošos datus par piena kalorijām, olbaltumvielām, taukiem un ogļhidrātiem.
+2.	Lietotājs ievada nepareizu tekstu, piemēram, "piens 20x", kas izraisa kļūdas ziņojumu par nepareiziem datiem.
+3.	Lietotājs izmanto komandu /start, lai uzsāktu darbu ar botu un saņem sākotnējo informāciju par botu.
+4.	Lietotājs izmanto komandu /help, lai iegūtu palīdzību par pieejamajām komandām un to funkcionalitāti.
+3. Robež-scenāriji:
+1.	Lietotājs ievada minimālo produkta daudzumu, piemēram, 1 g, un saņem atbilstošu informāciju par šo daudzumu.
+2.	Lietotājs ievada maksimāli iespējamo daudzumu, piemēram, 1000 g, un saņem pareizu atbildi par šo daudzumu.
+
